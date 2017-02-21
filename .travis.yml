@@ -8,6 +8,6 @@ python:
 services:
     - docker
 before_script:
-    - build_es_docker_image.sh
+    - ./build_es_docker_image.sh
 script:
 -  ./run.sh
