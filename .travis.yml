@@ -9,5 +9,6 @@ services:
     - docker
 before_script:
     - ./build_es_docker_image.sh
+    - sudo pip install requests 
 script:
 -  ./run.sh
